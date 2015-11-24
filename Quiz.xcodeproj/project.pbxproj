@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E567C4C14B915A300E1B20E /* level3090.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E567C4814B915A300E1B20E /* level3090.png */; };
+		3E567C4E14B915A300E1B20E /* level0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E567C4A14B915A300E1B20E /* level0030.png */; };
+		3E567C5114B915DF00E1B20E /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E567C5014B915DF00E1B20E /* ResultViewController.m */; };
 		3EF707D614B8AA1D000B7C46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF707D514B8AA1D000B7C46 /* UIKit.framework */; };
 		3EF707D814B8AA1D000B7C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF707D714B8AA1D000B7C46 /* Foundation.framework */; };
 		3EF707DA14B8AA1D000B7C46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF707D914B8AA1D000B7C46 /* CoreGraphics.framework */; };
@@ -20,6 +23,46 @@
 		3EF707F614B8AA1D000B7C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF707D714B8AA1D000B7C46 /* Foundation.framework */; };
 		3EF707FE14B8AA1D000B7C46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EF707FC14B8AA1D000B7C46 /* InfoPlist.strings */; };
 		3EF7080114B8AA1D000B7C46 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7080014B8AA1D000B7C46 /* QuizTests.m */; };
+		3EF7080C14B8B5F6000B7C46 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7080B14B8B5F6000B7C46 /* QuizViewController.m */; };
+		3EF7081714B8D5DF000B7C46 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7081614B8D5DF000B7C46 /* Problem.m */; };
+		3EF7082014B9069B000B7C46 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7081C14B9069B000B7C46 /* back.png */; };
+		3EF7082114B9069B000B7C46 /* false.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7081D14B9069B000B7C46 /* false.png */; };
+		3EF7082214B9069B000B7C46 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7081E14B9069B000B7C46 /* start.png */; };
+		3EF7082314B9069B000B7C46 /* true.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7081F14B9069B000B7C46 /* true.png */; };
+		A931F91C1B26F1E100442C9C /* 黒板.gif in Resources */ = {isa = PBXBuildFile; fileRef = A931F91B1B26F1E100442C9C /* 黒板.gif */; };
+		A931F91E1B26F23D00442C9C /* 黒板.png in Resources */ = {isa = PBXBuildFile; fileRef = A931F91D1B26F23D00442C9C /* 黒板.png */; };
+		A996A9331AAF08AF00558CB3 /* 42103480_220x145.gif in Resources */ = {isa = PBXBuildFile; fileRef = A996A9321AAF08AF00558CB3 /* 42103480_220x145.gif */; };
+		A996A9381AAF0BFE00558CB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A996A9351AAF0BFE00558CB3 /* Default-568h@2x.png */; };
+		A996A9391AAF0BFE00558CB3 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A996A9361AAF0BFE00558CB3 /* Default-667h@2x.png */; };
+		A996A93A1AAF0BFE00558CB3 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A996A9371AAF0BFE00558CB3 /* Default-736h@3x.png */; };
+		A996A93C1AB8320600558CB3 /* level900.png in Resources */ = {isa = PBXBuildFile; fileRef = A996A93B1AB8320600558CB3 /* level900.png */; };
+		A9C6DF731B9F023D00AFF3A9 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF5E1B9F023D00AFF3A9 /* Contents.json */; };
+		A9C6DF741B9F023D00AFF3A9 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF5F1B9F023D00AFF3A9 /* Icon-40.png */; };
+		A9C6DF751B9F023D00AFF3A9 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF601B9F023D00AFF3A9 /* Icon-40@2x.png */; };
+		A9C6DF761B9F023D00AFF3A9 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF611B9F023D00AFF3A9 /* Icon-40@3x.png */; };
+		A9C6DF771B9F023D00AFF3A9 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF621B9F023D00AFF3A9 /* Icon-60@2x.png */; };
+		A9C6DF781B9F023D00AFF3A9 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF631B9F023D00AFF3A9 /* Icon-60@3x.png */; };
+		A9C6DF791B9F023D00AFF3A9 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF641B9F023D00AFF3A9 /* Icon-76.png */; };
+		A9C6DF7A1B9F023D00AFF3A9 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF651B9F023D00AFF3A9 /* Icon-76@2x.png */; };
+		A9C6DF7B1B9F023D00AFF3A9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF661B9F023D00AFF3A9 /* Icon-Small.png */; };
+		A9C6DF7C1B9F023D00AFF3A9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF671B9F023D00AFF3A9 /* Icon-Small@2x.png */; };
+		A9C6DF7D1B9F023D00AFF3A9 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF681B9F023D00AFF3A9 /* Icon-Small@3x.png */; };
+		A9C6DF7E1B9F023D00AFF3A9 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF691B9F023D00AFF3A9 /* Icon-60.png */; };
+		A9C6DF7F1B9F023D00AFF3A9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6A1B9F023D00AFF3A9 /* Icon-72.png */; };
+		A9C6DF801B9F023D00AFF3A9 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6B1B9F023D00AFF3A9 /* Icon-72@2x.png */; };
+		A9C6DF811B9F023D00AFF3A9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6C1B9F023D00AFF3A9 /* Icon-Small-50.png */; };
+		A9C6DF821B9F023D00AFF3A9 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6D1B9F023D00AFF3A9 /* Icon-Small-50@2x.png */; };
+		A9C6DF831B9F023D00AFF3A9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6E1B9F023D00AFF3A9 /* Icon.png */; };
+		A9C6DF841B9F023D00AFF3A9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF6F1B9F023D00AFF3A9 /* Icon@2x.png */; };
+		A9C6DF851B9F023D00AFF3A9 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF701B9F023D00AFF3A9 /* iTunesArtwork.png */; };
+		A9C6DF861B9F023D00AFF3A9 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF711B9F023D00AFF3A9 /* iTunesArtwork@2x.png */; };
+		A9C6DF891B9F026C00AFF3A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF881B9F026C00AFF3A9 /* Images.xcassets */; };
+		A9C6DF8C1BA83AE900AFF3A9 /* 35.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6DF8A1BA83AE900AFF3A9 /* 35.storyboard */; };
+		A9F8EF601B303A750019CE3B /* kirara1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F8EF5F1B303A750019CE3B /* kirara1.png */; };
+		A9F8EF621B303AF00019CE3B /* きらきら.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F8EF611B303AF00019CE3B /* きらきら.png */; };
+		A9F8EF641B303D5A0019CE3B /* kirakira.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F8EF631B303D5A0019CE3B /* kirakira.png */; };
+		A9FD84281BDF94FD00768AEF /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD84271BDF94FD00768AEF /* StoryboardHelper.swift */; };
+		A9FD842A1BDF95AF00768AEF /* ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FD84291BDF95AF00768AEF /* ipad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +76,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E567C4814B915A300E1B20E /* level3090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level3090.png; sourceTree = "<group>"; };
+		3E567C4A14B915A300E1B20E /* level0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level0030.png; sourceTree = "<group>"; };
+		3E567C4F14B915DF00E1B20E /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		3E567C5014B915DF00E1B20E /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		3EF707D114B8AA1D000B7C46 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF707D514B8AA1D000B7C46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3EF707D714B8AA1D000B7C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3EF707D914B8AA1D000B7C46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3EF707DD14B8AA1D000B7C46 /* Quiz-Info.plist */ = {isa = PBXFileReference; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		3EF707DD14B8AA1D000B7C46 /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
 		3EF707DF14B8AA1D000B7C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3EF707E114B8AA1D000B7C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3EF707E314B8AA1D000B7C46 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
-		3EF707E414B8AA1D000B7C46 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF707E314B8AA1D000B7C46 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		3EF707E414B8AA1D000B7C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EF707E514B8AA1D000B7C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3EF707E814B8AA1D000B7C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3EF707EA14B8AA1D000B7C46 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3EF707EA14B8AA1D000B7C46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3EF707EB14B8AA1D000B7C46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EF707F214B8AA1D000B7C46 /* QuizTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF707F314B8AA1D000B7C46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3EF707FB14B8AA1D000B7C46 /* QuizTests-Info.plist */ = {isa = PBXFileReference; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
+		3EF707FB14B8AA1D000B7C46 /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		3EF707FD14B8AA1D000B7C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3EF707FF14B8AA1D000B7C46 /* QuizTests.h */ = {isa = PBXFileReference; path = QuizTests.h; sourceTree = "<group>"; };
+		3EF707FF14B8AA1D000B7C46 /* QuizTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizTests.h; sourceTree = "<group>"; };
 		3EF7080014B8AA1D000B7C46 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		3EF7080A14B8B5F6000B7C46 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		3EF7080B14B8B5F6000B7C46 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		3EF7081514B8D5DF000B7C46 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem.h; sourceTree = "<group>"; };
+		3EF7081614B8D5DF000B7C46 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+		3EF7081C14B9069B000B7C46 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3EF7081D14B9069B000B7C46 /* false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = false.png; sourceTree = "<group>"; };
+		3EF7081E14B9069B000B7C46 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		3EF7081F14B9069B000B7C46 /* true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = true.png; sourceTree = "<group>"; };
+		A931F91B1B26F1E100442C9C /* 黒板.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "黒板.gif"; sourceTree = "<group>"; };
+		A931F91D1B26F23D00442C9C /* 黒板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黒板.png"; sourceTree = "<group>"; };
+		A996A9321AAF08AF00558CB3 /* 42103480_220x145.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 42103480_220x145.gif; sourceTree = "<group>"; };
+		A996A9351AAF0BFE00558CB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A996A9361AAF0BFE00558CB3 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		A996A9371AAF0BFE00558CB3 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		A996A93B1AB8320600558CB3 /* level900.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level900.png; sourceTree = "<group>"; };
+		A9C6DF5E1B9F023D00AFF3A9 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		A9C6DF5F1B9F023D00AFF3A9 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		A9C6DF601B9F023D00AFF3A9 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		A9C6DF611B9F023D00AFF3A9 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		A9C6DF621B9F023D00AFF3A9 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		A9C6DF631B9F023D00AFF3A9 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		A9C6DF641B9F023D00AFF3A9 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		A9C6DF651B9F023D00AFF3A9 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		A9C6DF661B9F023D00AFF3A9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A9C6DF671B9F023D00AFF3A9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A9C6DF681B9F023D00AFF3A9 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		A9C6DF691B9F023D00AFF3A9 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		A9C6DF6A1B9F023D00AFF3A9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A9C6DF6B1B9F023D00AFF3A9 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		A9C6DF6C1B9F023D00AFF3A9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A9C6DF6D1B9F023D00AFF3A9 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A9C6DF6E1B9F023D00AFF3A9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A9C6DF6F1B9F023D00AFF3A9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A9C6DF701B9F023D00AFF3A9 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		A9C6DF711B9F023D00AFF3A9 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		A9C6DF881B9F026C00AFF3A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9C6DF8B1BA83AE900AFF3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/35.storyboard; sourceTree = "<group>"; };
+		A9F8EF5F1B303A750019CE3B /* kirara1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirara1.png; sourceTree = "<group>"; };
+		A9F8EF611B303AF00019CE3B /* きらきら.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "きらきら.png"; sourceTree = "<group>"; };
+		A9F8EF631B303D5A0019CE3B /* kirakira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirakira.png; sourceTree = "<group>"; };
+		A9FD84261BDF94FD00768AEF /* Quiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9FD84271BDF94FD00768AEF /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		A9FD84291BDF95AF00768AEF /* ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +201,37 @@
 		3EF707DB14B8AA1D000B7C46 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				A931F91D1B26F23D00442C9C /* 黒板.png */,
+				A931F91B1B26F1E100442C9C /* 黒板.gif */,
+				A996A93B1AB8320600558CB3 /* level900.png */,
+				A9C6DF5C1B9F023D00AFF3A9 /* ios */,
+				3E567C4814B915A300E1B20E /* level3090.png */,
+				3E567C4A14B915A300E1B20E /* level0030.png */,
+				3EF7081C14B9069B000B7C46 /* back.png */,
+				3EF7081D14B9069B000B7C46 /* false.png */,
+				3EF7081E14B9069B000B7C46 /* start.png */,
+				3EF7081F14B9069B000B7C46 /* true.png */,
 				3EF707E414B8AA1D000B7C46 /* AppDelegate.h */,
 				3EF707E514B8AA1D000B7C46 /* AppDelegate.m */,
 				3EF707E714B8AA1D000B7C46 /* MainStoryboard.storyboard */,
+				A9FD84271BDF94FD00768AEF /* StoryboardHelper.swift */,
+				A9FD84291BDF95AF00768AEF /* ipad.storyboard */,
+				A9C6DF8A1BA83AE900AFF3A9 /* 35.storyboard */,
+				A9F8EF631B303D5A0019CE3B /* kirakira.png */,
+				A9F8EF611B303AF00019CE3B /* きらきら.png */,
+				A9F8EF5F1B303A750019CE3B /* kirara1.png */,
+				A996A9321AAF08AF00558CB3 /* 42103480_220x145.gif */,
 				3EF707EA14B8AA1D000B7C46 /* ViewController.h */,
 				3EF707EB14B8AA1D000B7C46 /* ViewController.m */,
+				3EF7080A14B8B5F6000B7C46 /* QuizViewController.h */,
+				3EF7080B14B8B5F6000B7C46 /* QuizViewController.m */,
+				3E567C4F14B915DF00E1B20E /* ResultViewController.h */,
+				3E567C5014B915DF00E1B20E /* ResultViewController.m */,
+				3EF7081514B8D5DF000B7C46 /* Problem.h */,
+				3EF7081614B8D5DF000B7C46 /* Problem.m */,
+				A9C6DF881B9F026C00AFF3A9 /* Images.xcassets */,
 				3EF707DC14B8AA1D000B7C46 /* Supporting Files */,
+				A9FD84261BDF94FD00768AEF /* Quiz-Bridging-Header.h */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -124,6 +239,7 @@
 		3EF707DC14B8AA1D000B7C46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A996A9341AAF0BFE00558CB3 /* Defaults-master */,
 				3EF707DD14B8AA1D000B7C46 /* Quiz-Info.plist */,
 				3EF707DE14B8AA1D000B7C46 /* InfoPlist.strings */,
 				3EF707E114B8AA1D000B7C46 /* main.m */,
@@ -149,6 +265,51 @@
 				3EF707FC14B8AA1D000B7C46 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A996A9341AAF0BFE00558CB3 /* Defaults-master */ = {
+			isa = PBXGroup;
+			children = (
+				A996A9351AAF0BFE00558CB3 /* Default-568h@2x.png */,
+				A996A9361AAF0BFE00558CB3 /* Default-667h@2x.png */,
+				A996A9371AAF0BFE00558CB3 /* Default-736h@3x.png */,
+			);
+			path = "Defaults-master";
+			sourceTree = "<group>";
+		};
+		A9C6DF5C1B9F023D00AFF3A9 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A9C6DF5D1B9F023D00AFF3A9 /* AppIcon.appiconset */,
+				A9C6DF691B9F023D00AFF3A9 /* Icon-60.png */,
+				A9C6DF6A1B9F023D00AFF3A9 /* Icon-72.png */,
+				A9C6DF6B1B9F023D00AFF3A9 /* Icon-72@2x.png */,
+				A9C6DF6C1B9F023D00AFF3A9 /* Icon-Small-50.png */,
+				A9C6DF6D1B9F023D00AFF3A9 /* Icon-Small-50@2x.png */,
+				A9C6DF6E1B9F023D00AFF3A9 /* Icon.png */,
+				A9C6DF6F1B9F023D00AFF3A9 /* Icon@2x.png */,
+				A9C6DF701B9F023D00AFF3A9 /* iTunesArtwork.png */,
+				A9C6DF711B9F023D00AFF3A9 /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		A9C6DF5D1B9F023D00AFF3A9 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				A9C6DF5E1B9F023D00AFF3A9 /* Contents.json */,
+				A9C6DF5F1B9F023D00AFF3A9 /* Icon-40.png */,
+				A9C6DF601B9F023D00AFF3A9 /* Icon-40@2x.png */,
+				A9C6DF611B9F023D00AFF3A9 /* Icon-40@3x.png */,
+				A9C6DF631B9F023D00AFF3A9 /* Icon-60@3x.png */,
+				A9C6DF621B9F023D00AFF3A9 /* Icon-60@2x.png */,
+				A9C6DF641B9F023D00AFF3A9 /* Icon-76.png */,
+				A9C6DF651B9F023D00AFF3A9 /* Icon-76@2x.png */,
+				A9C6DF661B9F023D00AFF3A9 /* Icon-Small.png */,
+				A9C6DF671B9F023D00AFF3A9 /* Icon-Small@2x.png */,
+				A9C6DF681B9F023D00AFF3A9 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +349,7 @@
 			name = QuizTests;
 			productName = QuizTests;
 			productReference = 3EF707F214B8AA1D000B7C46 /* QuizTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,8 +357,14 @@
 		3EF707C814B8AA1D000B7C46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "慶應義塾大学";
+				TargetAttributes = {
+					3EF707D014B8AA1D000B7C46 = {
+						DevelopmentTeam = 89X4C7Q77Q;
+					};
+				};
 			};
 			buildConfigurationList = 3EF707CB14B8AA1D000B7C46 /* Build configuration list for PBXProject "Quiz" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,8 +389,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C6DF781B9F023D00AFF3A9 /* Icon-60@3x.png in Resources */,
+				A9C6DF841B9F023D00AFF3A9 /* Icon@2x.png in Resources */,
 				3EF707E014B8AA1D000B7C46 /* InfoPlist.strings in Resources */,
+				A9C6DF891B9F026C00AFF3A9 /* Images.xcassets in Resources */,
+				A9C6DF821B9F023D00AFF3A9 /* Icon-Small-50@2x.png in Resources */,
+				A9F8EF621B303AF00019CE3B /* きらきら.png in Resources */,
+				A996A9391AAF0BFE00558CB3 /* Default-667h@2x.png in Resources */,
+				A996A9381AAF0BFE00558CB3 /* Default-568h@2x.png in Resources */,
+				A9C6DF741B9F023D00AFF3A9 /* Icon-40.png in Resources */,
 				3EF707E914B8AA1D000B7C46 /* MainStoryboard.storyboard in Resources */,
+				3EF7082014B9069B000B7C46 /* back.png in Resources */,
+				A931F91E1B26F23D00442C9C /* 黒板.png in Resources */,
+				A9C6DF8C1BA83AE900AFF3A9 /* 35.storyboard in Resources */,
+				A996A93A1AAF0BFE00558CB3 /* Default-736h@3x.png in Resources */,
+				A9C6DF801B9F023D00AFF3A9 /* Icon-72@2x.png in Resources */,
+				A9C6DF861B9F023D00AFF3A9 /* iTunesArtwork@2x.png in Resources */,
+				A9C6DF831B9F023D00AFF3A9 /* Icon.png in Resources */,
+				A996A9331AAF08AF00558CB3 /* 42103480_220x145.gif in Resources */,
+				A9C6DF761B9F023D00AFF3A9 /* Icon-40@3x.png in Resources */,
+				3EF7082114B9069B000B7C46 /* false.png in Resources */,
+				A9C6DF7C1B9F023D00AFF3A9 /* Icon-Small@2x.png in Resources */,
+				A9F8EF601B303A750019CE3B /* kirara1.png in Resources */,
+				A9C6DF7D1B9F023D00AFF3A9 /* Icon-Small@3x.png in Resources */,
+				A9C6DF771B9F023D00AFF3A9 /* Icon-60@2x.png in Resources */,
+				3EF7082214B9069B000B7C46 /* start.png in Resources */,
+				A9C6DF851B9F023D00AFF3A9 /* iTunesArtwork.png in Resources */,
+				A9C6DF7A1B9F023D00AFF3A9 /* Icon-76@2x.png in Resources */,
+				A9C6DF7F1B9F023D00AFF3A9 /* Icon-72.png in Resources */,
+				A9C6DF7B1B9F023D00AFF3A9 /* Icon-Small.png in Resources */,
+				A9C6DF7E1B9F023D00AFF3A9 /* Icon-60.png in Resources */,
+				A931F91C1B26F1E100442C9C /* 黒板.gif in Resources */,
+				A9C6DF811B9F023D00AFF3A9 /* Icon-Small-50.png in Resources */,
+				A9F8EF641B303D5A0019CE3B /* kirakira.png in Resources */,
+				3EF7082314B9069B000B7C46 /* true.png in Resources */,
+				A996A93C1AB8320600558CB3 /* level900.png in Resources */,
+				3E567C4C14B915A300E1B20E /* level3090.png in Resources */,
+				A9C6DF751B9F023D00AFF3A9 /* Icon-40@2x.png in Resources */,
+				A9C6DF791B9F023D00AFF3A9 /* Icon-76.png in Resources */,
+				A9FD842A1BDF95AF00768AEF /* ipad.storyboard in Resources */,
+				3E567C4E14B915A300E1B20E /* level0030.png in Resources */,
+				A9C6DF731B9F023D00AFF3A9 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +466,11 @@
 			files = (
 				3EF707E214B8AA1D000B7C46 /* main.m in Sources */,
 				3EF707E614B8AA1D000B7C46 /* AppDelegate.m in Sources */,
+				A9FD84281BDF94FD00768AEF /* StoryboardHelper.swift in Sources */,
 				3EF707EC14B8AA1D000B7C46 /* ViewController.m in Sources */,
+				3EF7080C14B8B5F6000B7C46 /* QuizViewController.m in Sources */,
+				3EF7081714B8D5DF000B7C46 /* Problem.m in Sources */,
+				3E567C5114B915DF00E1B20E /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +517,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		A9C6DF8A1BA83AE900AFF3A9 /* 35.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C6DF8B1BA83AE900AFF3A9 /* en */,
+			);
+			name = 35.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -316,7 +534,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matsuoka Kiyomi (89X4C7Q77Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Matsuoka Kiyomi (89X4C7Q77Q)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -331,6 +550,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "0bfaf79c-be57-4089-bb15-b9614d7a3a44";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -341,7 +561,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matsuoka Kiyomi (89X4C7Q77Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Matsuoka Kiyomi (89X4C7Q77Q)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -350,6 +571,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0bfaf79c-be57-4089-bb15-b9614d7a3a44";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +580,21 @@
 		3EF7080514B8AA1D000B7C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz/Quiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,10 +602,20 @@
 		3EF7080614B8AA1D000B7C46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz/Quiz-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -430,6 +673,7 @@
 				3EF7080614B8AA1D000B7C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF7080714B8AA1D000B7C46 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +682,7 @@
 				3EF7080914B8AA1D000B7C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mte-4e-47D">
+            <objects>
+                <viewController id="yZD-OU-lcX" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PC9-Ia-dZ9"/>
+                        <viewControllerLayoutGuide type="bottom" id="N8h-la-XvG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P7l-DB-Fnd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黒板.gif" translatesAutoresizingMaskIntoConstraints="NO" id="83I-aK-0eu">
+                                <rect key="frame" x="-25" y="-16" width="819" height="1055"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Let's" translatesAutoresizingMaskIntoConstraints="NO" id="k4a-LS-pta">
+                                <rect key="frame" x="50" y="93" width="264" height="149"/>
+                                <color key="backgroundColor" red="0.22433767686550127" green="0.51516661352040816" blue="0.27329828021407515" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="English !!" translatesAutoresizingMaskIntoConstraints="NO" id="S8I-oz-8o7">
+                                <rect key="frame" x="107" y="415" width="543" height="192.5"/>
+                                <color key="backgroundColor" red="0.2232193858" green="0.52531090560000004" blue="0.26236885729999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="130"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Study" translatesAutoresizingMaskIntoConstraints="NO" id="MOM-SS-6Mo">
+                                <rect key="frame" x="155" y="215" width="328" height="152"/>
+                                <color key="backgroundColor" red="0.221466354" green="0.52118542729999995" blue="0.26030836889999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="100"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ps-gb-0SO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="434" y="158"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="0hK-UI-rdG">
+            <objects>
+                <viewController id="mFB-4w-faO" customClass="QuizViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WTV-Px-LvI"/>
+                        <viewControllerLayoutGuide type="bottom" id="qeV-b6-Twb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qzy-jw-oLU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黒板.gif" translatesAutoresizingMaskIntoConstraints="NO" id="1HO-HH-jlQ">
+                                <rect key="frame" x="-21" y="-18" width="820" height="1060"/>
+                                <color key="backgroundColor" red="0.27610809209999998" green="0.65738600130000002" blue="0.30549289509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jiu-NT-Eyg">
+                                <rect key="frame" x="58" y="303" width="176" height="49"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerIsChoise2:" destination="mFB-4w-faO" eventType="touchUpInside" id="vqa-Vu-oOK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKj-PL-yqj">
+                                <rect key="frame" x="58" y="415" width="176" height="47"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerIsChoise3:" destination="mFB-4w-faO" eventType="touchUpInside" id="dVR-xY-g1I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCD-d1-e3A">
+                                <rect key="frame" x="153" y="350" width="176" height="49"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerIsChoise1:" destination="mFB-4w-faO" eventType="touchUpInside" id="Rm1-pZ-Xbs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="選択肢1" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0Ty-Zy-4pN">
+                                <rect key="frame" x="220" y="347" width="339" height="83"/>
+                                <color key="backgroundColor" red="0.22399851109999999" green="0.5271444515" blue="0.26328462990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="選択肢2" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jNc-bv-AEi">
+                                <rect key="frame" x="220" y="515" width="339" height="91"/>
+                                <color key="backgroundColor" red="0.219958916" green="0.51763791449999996" blue="0.25853654799999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="選択肢3" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Aeo-AS-ikS">
+                                <rect key="frame" x="220" y="686" width="339" height="96"/>
+                                <color key="backgroundColor" red="0.21939150960000001" green="0.51630261479999995" blue="0.25786962660000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1." lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="GqB-Cc-rEt">
+                                <rect key="frame" x="106" y="343" width="53" height="92"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="90"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="2." lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BRd-Ni-bZx">
+                                <rect key="frame" x="104" y="517" width="57" height="88"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="問題文" translatesAutoresizingMaskIntoConstraints="NO" id="toA-Vf-OLi">
+                                <rect key="frame" x="63" y="58" width="653" height="173"/>
+                                <color key="backgroundColor" red="0.22183051040000001" green="0.52204241070000001" blue="0.26073639310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="60"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="3." lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="IRv-ny-FFh">
+                                <rect key="frame" x="106" y="689" width="63" height="90"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="75"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.021811051840000002" blue="0.44563504310000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="lbChoise1" destination="0Ty-Zy-4pN" id="LEL-Cd-slF"/>
+                        <outlet property="lbChoise2" destination="jNc-bv-AEi" id="okX-Vc-QBZ"/>
+                        <outlet property="lbChoise3" destination="Aeo-AS-ikS" id="UHW-XR-abW"/>
+                        <outlet property="problemText" destination="toA-Vf-OLi" id="9be-DF-TwJ"/>
+                        <segue destination="KSN-ab-Hkd" kind="modal" identifier="toResultView" modalTransitionStyle="crossDissolve" id="ejp-fK-EAW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIr-EB-tK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1348" y="64"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="STs-h1-TOn">
+            <objects>
+                <viewController id="KSN-ab-Hkd" customClass="ResultViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vKe-L4-c1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="sKp-lM-goO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Lh-GX-QaE">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黒板.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Z4A-fA-Ujn">
+                                <rect key="frame" x="-22" y="-13" width="813" height="1050"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="r7Z-Ke-Zzj">
+                                <rect key="frame" x="197" y="477" width="63" height="29"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="TfQ-7V-Iz3">
+                                <rect key="frame" x="669" y="606" width="75" height="34"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmS-zk-SHE">
+                                <rect key="frame" x="145" y="357" width="78" height="61"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="g8N-YI-Et1">
+                                <rect key="frame" x="555" y="507" width="113" height="53"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="0％" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zV2-hi-4Ob">
+                                <rect key="frame" x="294" y="331" width="181" height="138"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="90"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="72s-dg-PtE">
+                                <rect key="frame" x="259" y="86" width="95" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="ovB-vz-Yfb">
+                                <rect key="frame" x="46" y="268" width="82" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="diu-PE-om9">
+                                <rect key="frame" x="53" y="107" width="168" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="653-fR-O8y">
+                                <rect key="frame" x="58" y="553" width="94" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="DIM-v2-pHt">
+                                <rect key="frame" x="222" y="225" width="77" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="BE8-YT-Uu4">
+                                <rect key="frame" x="669" y="418" width="57" height="38"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Au-6dM">
+                                <rect key="frame" x="511" y="323" width="102" height="47"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="QcV-iE-gTz">
+                                <rect key="frame" x="391" y="172" width="145" height="92"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZHW-H7-wA5">
+                                <rect key="frame" x="662" y="268" width="82" height="41"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jcE-ZU-6Gc">
+                                <rect key="frame" x="58" y="86" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBu-9T-pfs">
+                                <rect key="frame" x="267" y="755" width="234" height="84"/>
+                                <color key="backgroundColor" red="0.22183051040000001" green="0.52204241070000001" blue="0.26073639310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="70"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="1" green="0.021811051840000002" blue="0.44563504310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yZD-OU-lcX" kind="modal" modalTransitionStyle="crossDissolve" id="lHO-F2-OJo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="レベル" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="x4C-fR-SVA">
+                                <rect key="frame" x="283" y="477" width="202" height="89"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirakira.png" translatesAutoresizingMaskIntoConstraints="NO" id="a2E-wA-Ci3">
+                                <rect key="frame" x="585" y="139" width="100" height="48"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LA9-H1-gGO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="levelLabel" destination="x4C-fR-SVA" id="Q0u-zT-ya2"/>
+                        <outlet property="percentageLabel" destination="zV2-hi-4Ob" id="3g3-Ni-4GH"/>
+                        <outlet property="star1" destination="BE8-YT-Uu4" id="3NV-to-7wG"/>
+                        <outlet property="star10" destination="653-fR-O8y" id="YY8-aS-h61"/>
+                        <outlet property="star11" destination="diu-PE-om9" id="gm4-gi-Wn0"/>
+                        <outlet property="star12" destination="72s-dg-PtE" id="rZT-P6-MX2"/>
+                        <outlet property="star13" destination="RmS-zk-SHE" id="Nk2-Od-oAb"/>
+                        <outlet property="star14" destination="r7Z-Ke-Zzj" id="dlQ-zc-DJG"/>
+                        <outlet property="star2" destination="a2E-wA-Ci3" id="5Da-a8-5HP"/>
+                        <outlet property="star3" destination="g8N-YI-Et1" id="HpR-OZ-Kqo"/>
+                        <outlet property="star4" destination="TfQ-7V-Iz3" id="LoD-hS-nLt"/>
+                        <outlet property="star5" destination="ZHW-H7-wA5" id="wpc-9l-hzW"/>
+                        <outlet property="star6" destination="jFA-Au-6dM" id="HC7-Tx-jqq"/>
+                        <outlet property="star7" destination="QcV-iE-gTz" id="lFf-N1-K8v"/>
+                        <outlet property="star8" destination="DIM-v2-pHt" id="hPp-HF-GTP"/>
+                        <outlet property="star9" destination="ovB-vz-Yfb" id="taI-6N-zXs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ap3-hL-RrX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vRx-zm-nhs">
+                    <rect key="frame" x="0.0" y="0.0" width="190" height="86"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Start Quiz!" image="start.png" backgroundImage="start.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="2318" y="56"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kirakira.png" width="146" height="149"/>
+        <image name="start.png" width="309" height="126"/>
+        <image name="黒板.gif" width="960" height="720"/>
+    </resources>
+</document>
